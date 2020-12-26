@@ -67,6 +67,10 @@ func CreatePokers()(pokers Pokers)  {
 type Pokers []Poker
 
 
+func （pokers Pokers）PrintPoker(){
+
+}
+
 
 func (p Pokers)Print()  {
 	for _, i2 := range p {
@@ -81,4 +85,3 @@ var pok [...]Pokers{CreatePokers()}
 fmt.Println("pok")
 
 }
-
